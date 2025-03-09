@@ -3,7 +3,7 @@ gtts
 python-dotenv
 huggingface_hub
 
-transformers --no-cache-dir
-torch --no-cache-dir
-sentencepiece --no-cache-dir
-streamlit --no-cache-dir
+transformers
+torch 
+sentencepiece 
+streamlit
