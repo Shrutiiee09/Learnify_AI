@@ -18,6 +18,6 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push --force https://bt21cse027:$HF_TOKEN@huggingface.co/spaces/bt21cse027/visual_ai
+        run: git push --force https://bt21cse027:$HF_TOKEN@huggingface.co/spaces/bt21cse027/visual_ai main
 
             
