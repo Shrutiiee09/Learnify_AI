@@ -2,7 +2,8 @@ accelerate
 gtts
 python-dotenv
 huggingface_hub
-transformers
-torch
-sentencepiece
-streamlit
+
+transformers --no-cache-dir
+torch --no-cache-dir
+sentencepiece --no-cache-dir
+streamlit --no-cache-dir
